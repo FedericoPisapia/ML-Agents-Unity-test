@@ -1,0 +1,2738 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.30f1 (1fb1bf06830e) revision 2077119'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'it' Physical Memory: 16314 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.30f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/Unity progect/reach a point
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+57589
+Successfully changed project path to: D:/Unity progect/reach a point
+D:/Unity progect/reach a point
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 57.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity progect/reach a point/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 580 Series (ID=0x67df)
+    Vendor:   
+    VRAM:     8171 MB
+    Driver:   30.0.14029.1011
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56456
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002297 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 61.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.576 seconds
+Domain Reload Profiling:
+	ReloadAssembly (576ms)
+		BeginReloadAssembly (74ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (430ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (130ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (180ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (61ms)
+				BeforeProcessingInitializeOnLoad (16ms)
+				ProcessInitializeOnLoadAttributes (73ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007430 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 60.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.920 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1921ms)
+		BeginReloadAssembly (177ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (1676ms)
+			LoadAssemblies (132ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (409ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (81ms)
+			SetupLoadedEditorAssemblies (943ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (60ms)
+				BeforeProcessingInitializeOnLoad (101ms)
+				ProcessInitializeOnLoadAttributes (758ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3344 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.9 MB.
+System memory in use after: 134.1 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 3768.
+Total: 3.343700 ms (FindLiveObjects: 0.263300 ms CreateObjectMapping: 0.207400 ms MarkObjects: 2.783900 ms  DeleteObjects: 0.088000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/group2.prefab
+  artifactKey: Guid(193da421b3222d74e89948de881d5489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/group2.prefab using Guid(193da421b3222d74e89948de881d5489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92d6896114e33b45e34d2aae5110aeba') in 0.113673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.302907 seconds.
+  path: Assets/group2.prefab
+  artifactKey: Guid(193da421b3222d74e89948de881d5489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/group2.prefab using Guid(193da421b3222d74e89948de881d5489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f403456b86e9d31e623f0abe2675736') in 0.011709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.425892 seconds.
+  path: Assets/group2.prefab
+  artifactKey: Guid(193da421b3222d74e89948de881d5489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/group2.prefab using Guid(193da421b3222d74e89948de881d5489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '408758e01d32640771adfaa3fbc21dad') in 0.012618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.817055 seconds.
+  path: Assets/group2.prefab
+  artifactKey: Guid(193da421b3222d74e89948de881d5489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/group2.prefab using Guid(193da421b3222d74e89948de881d5489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c568eadd5e9ca284ca832d9be1ed5803') in 0.011941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.621974 seconds.
+  path: Assets/group2.prefab
+  artifactKey: Guid(193da421b3222d74e89948de881d5489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/group2.prefab using Guid(193da421b3222d74e89948de881d5489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1f8c8882463801a189bbfb134d3c9a7') in 0.011076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.408629 seconds.
+  path: Assets/group2.prefab
+  artifactKey: Guid(193da421b3222d74e89948de881d5489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/group2.prefab using Guid(193da421b3222d74e89948de881d5489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '245448f93c4117e06e3073337757d079') in 0.011870 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005957 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.232 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1233ms)
+		BeginReloadAssembly (129ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (1046ms)
+			LoadAssemblies (116ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (332ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (434ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (322ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3323 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.3 MB.
+System memory in use after: 135.5 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 3779.
+Total: 3.251700 ms (FindLiveObjects: 0.230900 ms CreateObjectMapping: 0.153400 ms MarkObjects: 2.829800 ms  DeleteObjects: 0.036500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006492 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.180 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1180ms)
+		BeginReloadAssembly (127ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (995ms)
+			LoadAssemblies (108ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (337ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (422ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (309ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3323 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.3 MB.
+System memory in use after: 135.6 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3781.
+Total: 3.620300 ms (FindLiveObjects: 0.364200 ms CreateObjectMapping: 0.262000 ms MarkObjects: 2.956700 ms  DeleteObjects: 0.036300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005805 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.263 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1263ms)
+		BeginReloadAssembly (111ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (1101ms)
+			LoadAssemblies (106ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (365ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (70ms)
+			SetupLoadedEditorAssemblies (439ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (323ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3323 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.4 MB.
+System memory in use after: 135.6 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3783.
+Total: 4.421900 ms (FindLiveObjects: 0.343600 ms CreateObjectMapping: 0.223400 ms MarkObjects: 3.810600 ms  DeleteObjects: 0.042900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005440 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.098 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1098ms)
+		BeginReloadAssembly (121ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (926ms)
+			LoadAssemblies (110ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (301ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (402ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (299ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3323 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.4 MB.
+System memory in use after: 135.6 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3785.
+Total: 2.958000 ms (FindLiveObjects: 0.234600 ms CreateObjectMapping: 0.149500 ms MarkObjects: 2.551900 ms  DeleteObjects: 0.021200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005503 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.085 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1085ms)
+		BeginReloadAssembly (111ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (924ms)
+			LoadAssemblies (101ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (283ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (425ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (322ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3323 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.4 MB.
+System memory in use after: 135.6 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3787.
+Total: 2.961900 ms (FindLiveObjects: 0.260100 ms CreateObjectMapping: 0.152700 ms MarkObjects: 2.523100 ms  DeleteObjects: 0.024900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 681.388963 seconds.
+  path: Assets/Jumper.nn
+  artifactKey: Guid(e842dc46f81553d4391f96ffe98f09b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jumper.nn using Guid(e842dc46f81553d4391f96ffe98f09b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException
+  at (wrapper managed-to-native) UnityEditor.EditorUtility.CopySerialized(UnityEngine.Object,UnityEngine.Object)
+  at Unity.Barracuda.NNModelEditor.RenderStaticPreview (System.String assetPath, UnityEngine.Object[] subAssets, System.Int32 width, System.Int32 height) [0x00009] in D:\Unity progect\reach a point\Library\PackageCache\com.unity.barracuda@1.0.4\Barracuda\Editor\ONNXModelImporterEditor.cs:85 
+  at UnityEditor.AssetPreviewUpdater.CreatePreviewForAsset (UnityEngine.Object obj, UnityEngine.Object[] subAssets, System.String assetPath) [0x0008a] in <68089899e4c84456bfc1de3436accf4a>:0 
+
+ -> (artifact id: '7215ef8c79c164af23179581f3c393f1') in 0.050307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.719638 seconds.
+  path: Assets/ML-Agents/Examples/GridWorld/TFModels/GridWorld.nn
+  artifactKey: Guid(a812f1ce7763a4a0c912717f3594fe20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ML-Agents/Examples/GridWorld/TFModels/GridWorld.nn using Guid(a812f1ce7763a4a0c912717f3594fe20) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException
+  at (wrapper managed-to-native) UnityEditor.EditorUtility.CopySerialized(UnityEngine.Object,UnityEngine.Object)
+  at Unity.Barracuda.NNModelEditor.RenderStaticPreview (System.String assetPath, UnityEngine.Object[] subAssets, System.Int32 width, System.Int32 height) [0x00009] in D:\Unity progect\reach a point\Library\PackageCache\com.unity.barracuda@1.0.4\Barracuda\Editor\ONNXModelImporterEditor.cs:85 
+  at UnityEditor.AssetPreviewUpdater.CreatePreviewForAsset (UnityEngine.Object obj, UnityEngine.Object[] subAssets, System.String assetPath) [0x0008a] in <68089899e4c84456bfc1de3436accf4a>:0 
+
+ -> (artifact id: '2d2322419421712d34806972ec5c98b8') in 0.060259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/ML-Agents/Examples/Soccer/TFModels/Striker.nn
+  artifactKey: Guid(75a830685bf8e43918adc4783a2abebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ML-Agents/Examples/Soccer/TFModels/Striker.nn using Guid(75a830685bf8e43918adc4783a2abebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException
+  at (wrapper managed-to-native) UnityEditor.EditorUtility.CopySerialized(UnityEngine.Object,UnityEngine.Object)
+  at Unity.Barracuda.NNModelEditor.RenderStaticPreview (System.String assetPath, UnityEngine.Object[] subAssets, System.Int32 width, System.Int32 height) [0x00009] in D:\Unity progect\reach a point\Library\PackageCache\com.unity.barracuda@1.0.4\Barracuda\Editor\ONNXModelImporterEditor.cs:85 
+  at UnityEditor.AssetPreviewUpdater.CreatePreviewForAsset (UnityEngine.Object obj, UnityEngine.Object[] subAssets, System.String assetPath) [0x0008a] in <68089899e4c84456bfc1de3436accf4a>:0 
+
+ -> (artifact id: 'b3da0d81675615e3795f5396a58e570f') in 0.060178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/ML-Agents/Examples/Soccer/TFModels/SoccerTwos.nn
+  artifactKey: Guid(b0a629580a0ab48a5a774f90ff1fb48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ML-Agents/Examples/Soccer/TFModels/SoccerTwos.nn using Guid(b0a629580a0ab48a5a774f90ff1fb48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException
+  at (wrapper managed-to-native) UnityEditor.EditorUtility.CopySerialized(UnityEngine.Object,UnityEngine.Object)
+  at Unity.Barracuda.NNModelEditor.RenderStaticPreview (System.String assetPath, UnityEngine.Object[] subAssets, System.Int32 width, System.Int32 height) [0x00009] in D:\Unity progect\reach a point\Library\PackageCache\com.unity.barracuda@1.0.4\Barracuda\Editor\ONNXModelImporterEditor.cs:85 
+  at UnityEditor.AssetPreviewUpdater.CreatePreviewForAsset (UnityEngine.Object obj, UnityEngine.Object[] subAssets, System.String assetPath) [0x0008a] in <68089899e4c84456bfc1de3436accf4a>:0 
+
+ -> (artifact id: '823cd3b85b4de7f588bf6bedf3aa35ac') in 0.037084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/ML-Agents/Examples/Hallway/TFModels/Hallway.nn
+  artifactKey: Guid(317f4f8da7e4846b3aae0969781824a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ML-Agents/Examples/Hallway/TFModels/Hallway.nn using Guid(317f4f8da7e4846b3aae0969781824a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException
+  at (wrapper managed-to-native) UnityEditor.EditorUtility.CopySerialized(UnityEngine.Object,UnityEngine.Object)
+  at Unity.Barracuda.NNModelEditor.RenderStaticPreview (System.String assetPath, UnityEngine.Object[] subAssets, System.Int32 width, System.Int32 height) [0x00009] in D:\Unity progect\reach a point\Library\PackageCache\com.unity.barracuda@1.0.4\Barracuda\Editor\ONNXModelImporterEditor.cs:85 
+  at UnityEditor.AssetPreviewUpdater.CreatePreviewForAsset (UnityEngine.Object obj, UnityEngine.Object[] subAssets, System.String assetPath) [0x0008a] in <68089899e4c84456bfc1de3436accf4a>:0 
+
+ -> (artifact id: '1d971519d23f090189432489068487e9') in 0.022124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/ML-Agents/Examples/Pyramids/TFModels/Pyramids.nn
+  artifactKey: Guid(aa3fa19a09ec44a41be3da037783ad41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ML-Agents/Examples/Pyramids/TFModels/Pyramids.nn using Guid(aa3fa19a09ec44a41be3da037783ad41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException
+  at (wrapper managed-to-native) UnityEditor.EditorUtility.CopySerialized(UnityEngine.Object,UnityEngine.Object)
+  at Unity.Barracuda.NNModelEditor.RenderStaticPreview (System.String assetPath, UnityEngine.Object[] subAssets, System.Int32 width, System.Int32 height) [0x00009] in D:\Unity progect\reach a point\Library\PackageCache\com.unity.barracuda@1.0.4\Barracuda\Editor\ONNXModelImporterEditor.cs:85 
+  at UnityEditor.AssetPreviewUpdater.CreatePreviewForAsset (UnityEngine.Object obj, UnityEngine.Object[] subAssets, System.String assetPath) [0x0008a] in <68089899e4c84456bfc1de3436accf4a>:0 
+
+ -> (artifact id: 'd002d489b5787671da929ce1a204d1fc') in 0.039276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/ML-Agents/Examples/WallJump/TFModels/SmallWallJump.nn
+  artifactKey: Guid(fb2ce36eb40b6480e94ea0b5d7573e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ML-Agents/Examples/WallJump/TFModels/SmallWallJump.nn using Guid(fb2ce36eb40b6480e94ea0b5d7573e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException
+  at (wrapper managed-to-native) UnityEditor.EditorUtility.CopySerialized(UnityEngine.Object,UnityEngine.Object)
+  at Unity.Barracuda.NNModelEditor.RenderStaticPreview (System.String assetPath, UnityEngine.Object[] subAssets, System.Int32 width, System.Int32 height) [0x00009] in D:\Unity progect\reach a point\Library\PackageCache\com.unity.barracuda@1.0.4\Barracuda\Editor\ONNXModelImporterEditor.cs:85 
+  at UnityEditor.AssetPreviewUpdater.CreatePreviewForAsset (UnityEngine.Object obj, UnityEngine.Object[] subAssets, System.String assetPath) [0x0008a] in <68089899e4c84456bfc1de3436accf4a>:0 
+
+ -> (artifact id: '7d6f75bfc86cf08fed2f529ce4d0df75') in 0.028815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/ML-Agents/Examples/PushBlock/TFModels/PushBlock.nn
+  artifactKey: Guid(70db47ab276e44fe0beb677ff8d69382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ML-Agents/Examples/PushBlock/TFModels/PushBlock.nn using Guid(70db47ab276e44fe0beb677ff8d69382) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException
+  at (wrapper managed-to-native) UnityEditor.EditorUtility.CopySerialized(UnityEngine.Object,UnityEngine.Object)
+  at Unity.Barracuda.NNModelEditor.RenderStaticPreview (System.String assetPath, UnityEngine.Object[] subAssets, System.Int32 width, System.Int32 height) [0x00009] in D:\Unity progect\reach a point\Library\PackageCache\com.unity.barracuda@1.0.4\Barracuda\Editor\ONNXModelImporterEditor.cs:85 
+  at UnityEditor.AssetPreviewUpdater.CreatePreviewForAsset (UnityEngine.Object obj, UnityEngine.Object[] subAssets, System.String assetPath) [0x0008a] in <68089899e4c84456bfc1de3436accf4a>:0 
+
+ -> (artifact id: '31edd19c62dfc96e8942d7bee32d115b') in 0.014791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/ML-Agents/Examples/Reacher/TFModels/Reacher.nn
+  artifactKey: Guid(d7bdb6a78154f4cf99437d67e4a569a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ML-Agents/Examples/Reacher/TFModels/Reacher.nn using Guid(d7bdb6a78154f4cf99437d67e4a569a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException
+  at (wrapper managed-to-native) UnityEditor.EditorUtility.CopySerialized(UnityEngine.Object,UnityEngine.Object)
+  at Unity.Barracuda.NNModelEditor.RenderStaticPreview (System.String assetPath, UnityEngine.Object[] subAssets, System.Int32 width, System.Int32 height) [0x00009] in D:\Unity progect\reach a point\Library\PackageCache\com.unity.barracuda@1.0.4\Barracuda\Editor\ONNXModelImporterEditor.cs:85 
+  at UnityEditor.AssetPreviewUpdater.CreatePreviewForAsset (UnityEngine.Object obj, UnityEngine.Object[] subAssets, System.String assetPath) [0x0008a] in <68089899e4c84456bfc1de3436accf4a>:0 
+
+ -> (artifact id: 'e24daa2af42e07bd52af5c75c0b5effc') in 0.011863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 556.404034 seconds.
+  path: Assets/group2.prefab
+  artifactKey: Guid(193da421b3222d74e89948de881d5489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/group2.prefab using Guid(193da421b3222d74e89948de881d5489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbeec9cbb0fbf29a320b5f63d03078b3') in 0.050092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 654.580494 seconds.
+  path: Assets/group3.prefab
+  artifactKey: Guid(51590faa457a50a4b8c2f2a1baf9517c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/group3.prefab using Guid(51590faa457a50a4b8c2f2a1baf9517c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c444f7581792d653e55af1a92ee8a95') in 0.015298 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008012 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.164 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1164ms)
+		BeginReloadAssembly (128ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (986ms)
+			LoadAssemblies (107ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (310ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (431ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (317ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3323 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.5 MB.
+System memory in use after: 136.7 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 3808.
+Total: 3.558300 ms (FindLiveObjects: 0.263200 ms CreateObjectMapping: 0.160100 ms MarkObjects: 3.099600 ms  DeleteObjects: 0.034300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 542.665615 seconds.
+  path: Assets/spawn.prefab
+  artifactKey: Guid(31d7c408d11d96342aff71950a96f4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/spawn.prefab using Guid(31d7c408d11d96342aff71950a96f4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+ -> (artifact id: 'a3a9569024490e0a342e7ab0c12a992d') in 0.046286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.336860 seconds.
+  path: Assets/spawn.prefab
+  artifactKey: Guid(31d7c408d11d96342aff71950a96f4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/spawn.prefab using Guid(31d7c408d11d96342aff71950a96f4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Plane: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Jumper: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (finish: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Internal_InstantiateSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion)
+Spawner:OnValidate () (at Assets/Spawner.cs:34)
+
+[Assets/Spawner.cs line 34]
+
+ -> (artifact id: '08750ad8742829b4fe1f8a95b3e01704') in 0.021773 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005582 seconds.
+Begin MonoManager ReloadAssembly
+The file 'MemoryStream' is corrupted! Remove it and launch unity again!
+[Position out of bounds!]
+Fatal Error! The file 'MemoryStream' is corrupted! Remove it and launch unity again!
+[Position out of bounds!]
+Crash!!!
+SymInit: Symbol-SearchPath: 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Mono;.;D:\Unity progect\reach a point;C:\Program Files\Unity\Hub\Editor\2020.3.30f1\Editor;C:\Windows;C:\Windows\system32;SRV*C:\websymbols*http://msdl.microsoft.com/download/symbols;', symOptions: 534, UserName: 'chicc'
+OS-Version: 10.0.0
+C:\Program Files\Unity\Hub\Editor\2020.3.30f1\Editor\Unity.exe:Unity.exe (00007FF639500000), size: 83312640 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2020.3.30.45503
+C:\Windows\SYSTEM32\ntdll.dll:ntdll.dll (00007FFCC4630000), size: 2052096 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1566
+C:\Windows\System32\KERNEL32.DLL:KERNEL32.DLL (00007FFCC27C0000), size: 778240 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1566
+C:\Windows\System32\KERNELBASE.dll:KERNELBASE.dll (00007FFCC21E0000), size: 2916352 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1566
+C:\Windows\System32\CRYPT32.dll:CRYPT32.dll (00007FFCC2500000), size: 1400832 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1320
+C:\Windows\System32\ucrtbase.dll:ucrtbase.dll (00007FFCC2040000), size: 1048576 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.789
+C:\Windows\System32\USER32.dll:USER32.dll (00007FFCC3590000), size: 1703936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1503
+C:\Windows\System32\win32u.dll:win32u.dll (00007FFCC2660000), size: 139264 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1586
+C:\Program Files\Unity\Hub\Editor\2020.3.30f1\Editor\optix.6.0.0.dll:optix.6.0.0.dll (00007FFCB7050000), size: 208896 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.0.0.0
+C:\Windows\System32\GDI32.dll:GDI32.dll (00007FFCC3200000), size: 176128 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1202
+C:\Program Files\Unity\Hub\Editor\2020.3.30f1\Editor\OpenImageDenoise.dll:OpenImageDenoise.dll (00007FFC42E40000), size: 43806720 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Program Files\Unity\Hub\Editor\2020.3.30f1\Editor\libfbxsdk.dll:libfbxsdk.dll (00007FFC58230000), size: 10215424 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2020.2.0.0
+C:\Windows\System32\gdi32full.dll:gdi32full.dll (00007FFCC1E10000), size: 1093632 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1566
+C:\Windows\System32\msvcp_win.dll:msvcp_win.dll (00007FFCC2140000), size: 643072 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.789
+C:\Windows\System32\ADVAPI32.dll:ADVAPI32.dll (00007FFCC34E0000), size: 712704 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1466
+C:\Windows\System32\msvcrt.dll:msvcrt.dll (00007FFCC2880000), size: 647168 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.0.19041.546
+C:\Windows\System32\sechost.dll:sechost.dll (00007FFCC2720000), size: 638976 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1586
+C:\Windows\System32\RPCRT4.dll:RPCRT4.dll (00007FFCC3320000), size: 1200128 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1466
+C:\Windows\System32\SHELL32.dll:SHELL32.dll (00007FFCC2AB0000), size: 7618560 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1566
+C:\Program Files\Unity\Hub\Editor\2020.3.30f1\Editor\FreeImage.dll:FreeImage.dll (0000000180000000), size: 6582272 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 3.18.0.0
+C:\Windows\System32\SHLWAPI.dll:SHLWAPI.dll (00007FFCC2A50000), size: 348160 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1023
+C:\Program Files\Unity\Hub\Editor\2020.3.30f1\Editor\umbraoptimizer64.dll:umbraoptimizer64.dll (00007FFC902B0000), size: 1306624 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Program Files\Unity\Hub\Editor\2020.3.30f1\Editor\ispc_texcomp.dll:ispc_texcomp.dll (00007FFC81A50000), size: 1609728 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Windows\System32\ole32.dll:ole32.dll (00007FFCC40B0000), size: 1220608 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1202
+C:\Windows\System32\WS2_32.dll:WS2_32.dll (00007FFCC3880000), size: 438272 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\Windows\System32\combase.dll:combase.dll (00007FFCC4290000), size: 3489792 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1566
+C:\Windows\System32\WLDAP32.dll:WLDAP32.dll (00007FFCC3820000), size: 352256 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\Windows\System32\IMM32.dll:IMM32.dll (00007FFCC2690000), size: 196608 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\Windows\System32\Normaliz.dll:Normaliz.dll (00007FFCC37B0000), size: 32768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\Program Files\Unity\Hub\Editor\2020.3.30f1\Editor\WinPixEventRuntime.dll:WinPixEventRuntime.dll (00007FFCB7040000), size: 45056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.0.1812.6001
+C:\Windows\System32\SETUPAPI.dll:SETUPAPI.dll (00007FFCC3B50000), size: 4653056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1566
+C:\Windows\System32\cfgmgr32.dll:cfgmgr32.dll (00007FFCC24B0000), size: 319488 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1151
+C:\Windows\System32\bcrypt.dll:bcrypt.dll (00007FFCC1D50000), size: 159744 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1023
+C:\Program Files\Unity\Hub\Editor\2020.3.30f1\Editor\tbb.dll:tbb.dll (00007FFC930D0000), size: 413696 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2017.0.2016.1004
+C:\Windows\System32\OLEAUT32.dll:OLEAUT32.dll (00007FFCC3FE0000), size: 839680 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.985
+C:\Windows\System32\WINTRUST.dll:WINTRUST.dll (00007FFCC1F20000), size: 425984 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1566
+C:\Windows\SYSTEM32\VCRUNTIME140.dll:VCRUNTIME140.dll (00007FFCA4700000), size: 110592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.30.30704.0
+C:\Windows\SYSTEM32\OPENGL32.dll:OPENGL32.dll (00007FFC8BA90000), size: 1204224 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1566
+C:\Windows\SYSTEM32\GLU32.dll:GLU32.dll (00007FFC95870000), size: 180224 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1566
+C:\Windows\SYSTEM32\IPHLPAPI.DLL:IPHLPAPI.DLL (00007FFCC11B0000), size: 241664 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\Windows\SYSTEM32\WINHTTP.dll:WINHTTP.dll (00007FFCB9500000), size: 1085440 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1566
+C:\Windows\SYSTEM32\WINMM.dll:WINMM.dll (00007FFCB8C40000), size: 159744 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\Windows\SYSTEM32\HID.DLL:HID.DLL (00007FFCC0620000), size: 53248 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\Program Files\Unity\Hub\Editor\2020.3.30f1\Editor\RadeonImageFilters.dll:RadeonImageFilters.dll (00007FFC6FDC0000), size: 2535424 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.5.1.0
+C:\Windows\SYSTEM32\MSVCP140.dll:MSVCP140.dll (00007FFCA4920000), size: 581632 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.30.30704.0
+C:\Program Files\Unity\Hub\Editor\2020.3.30f1\Editor\SketchUpAPI.dll:SketchUpAPI.dll (00007FFC425B0000), size: 8978432 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 19.0.753.0
+C:\Windows\SYSTEM32\VERSION.dll:VERSION.dll (00007FFCBC830000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\Windows\SYSTEM32\MSVCR120.dll:MSVCR120.dll (00007FFC8D1F0000), size: 978944 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 12.0.21005.1
+C:\Windows\SYSTEM32\MSVCP120.dll:MSVCP120.dll (00007FFC90200000), size: 679936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 12.0.21005.1
+C:\Windows\SYSTEM32\WSOCK32.dll:WSOCK32.dll (00007FFCB7030000), size: 36864 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1
+C:\Windows\SYSTEM32\VCRUNTIME140_1.dll:VCRUNTIME140_1.dll (00007FFCA3DF0000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.30.30704.0
+C:\Program Files\Unity\Hub\Editor\2020.3.30f1\Editor\SketchUpCommonPreferences.dll:SketchUpCommonPreferences.dll (00007FFC914B0000), size: 483328 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 19.0.753.20342
+C:\Windows\SYSTEM32\Secur32.dll:Secur32.dll (00007FFCAD440000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\Windows\SYSTEM32\SSPICLI.DLL:SSPICLI.DLL (00007FFCC1C40000), size: 204800 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1586
+C:\Program Files\Unity\Hub\Editor\2020.3.30f1\Editor\OpenRL.dll:OpenRL.dll (0000024254400000), size: 12779520 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.5.0.2907
+C:\Windows\SYSTEM32\MSVCR100.dll:MSVCR100.dll (000000005DB90000), size: 860160 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.40219.325
+C:\Windows\SYSTEM32\MSVCP100.dll:MSVCP100.dll (000000005DC70000), size: 622592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.40219.325
+C:\Program Files\Unity\Hub\Editor\2020.3.30f1\Editor\embree.dll:embree.dll (00007FFC415C0000), size: 16711680 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2.14.0.0
+C:\Windows\SYSTEM32\MSWSOCK.DLL:MSWSOCK.DLL (00007FFCC1510000), size: 434176 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\Program Files\Unity\Hub\Editor\2020.3.30f1\Editor\OpenRL_pthread.dll:OpenRL_pthread.dll (0000024255050000), size: 61440 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2.9.0.0
+C:\Windows\SYSTEM32\MSASN1.dll:MSASN1.dll (00007FFCC1930000), size: 73728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\Windows\SYSTEM32\kernel.appcore.dll:kernel.appcore.dll (00007FFCBFC80000), size: 73728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\Windows\System32\bcryptPrimitives.dll:bcryptPrimitives.dll (00007FFCC1D80000), size: 532480 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1415
+C:\Windows\system32\uxtheme.dll:uxtheme.dll (00007FFCBF700000), size: 647168 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1266
+C:\Windows\System32\shcore.dll:shcore.dll (00007FFCC38F0000), size: 708608 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1566
+C:\Windows\SYSTEM32\windows.storage.dll:windows.storage.dll (00007FFCBFE80000), size: 7946240 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1566
+C:\Windows\SYSTEM32\Wldp.dll:Wldp.dll (00007FFCC17B0000), size: 180224 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1566
+C:\Windows\SYSTEM32\profapi.dll:profapi.dll (00007FFCC1C90000), size: 126976 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.844
+C:\Windows\System32\clbcatq.dll:clbcatq.dll (00007FFCC41E0000), size: 692224 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2001.12.10941.16384
+C:\Windows\System32\netprofm.dll:netprofm.dll (00007FFCBD480000), size: 253952 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.906
+C:\Windows\System32\npmproxy.dll:npmproxy.dll (00007FFCBA220000), size: 65536 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.906
+C:\Windows\System32\NSI.dll:NSI.dll (00007FFCC3310000), size: 32768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.610
+C:\Windows\SYSTEM32\dhcpcsvc6.DLL:dhcpcsvc6.DLL (00007FFCBC840000), size: 94208 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\Windows\SYSTEM32\dhcpcsvc.DLL:dhcpcsvc.DLL (00007FFCBB1D0000), size: 118784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\Windows\SYSTEM32\DNSAPI.dll:DNSAPI.dll (00007FFCC1200000), size: 827392 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1566
+C:\Windows\System32\fwpuclnt.dll:fwpuclnt.dll (00007FFCB2E20000), size: 520192 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1526
+C:\Windows\System32\rasadhlp.dll:rasadhlp.dll (00007FFCB6900000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\Program Files\Unity\Hub\Editor\2020.3.30f1\Editor\Data\Tools\astcenc-avx2.dll:astcenc-avx2.dll (00007FFC6E0E0000), size: 557056 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Windows\SYSTEM32\d3d11.dll:d3d11.dll (00007FFCBE280000), size: 2506752 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1202
+C:\Windows\SYSTEM32\dxgi.dll:dxgi.dll (00007FFCC0660000), size: 995328 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1566
+C:\Windows\System32\DriverStore\FileRepository\u0376724.inf_amd64_aa44b9d5e398e987\B376581\aticfx64.dll:aticfx64.dll (00007FFCB8C70000), size: 1810432 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 30.0.14029.1011
+C:\Windows\System32\DriverStore\FileRepository\u0376724.inf_amd64_aa44b9d5e398e987\B376581\atiuxp64.dll:atiuxp64.dll (00007FFCB89A0000), size: 233472 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 30.0.14029.1011
+C:\Windows\System32\DriverStore\FileRepository\u0376724.inf_amd64_aa44b9d5e398e987\B376581\atidxx64.dll:atidxx64.dll (00007FFCB2FA0000), size: 32780288 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 30.0.14029.1011
+C:\Windows\SYSTEM32\apphelp.dll:apphelp.dll (00007FFCBF5C0000), size: 589824 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1320
+C:\Windows\SYSTEM32\amdihk64.dll:amdihk64.dll (00007FFCB8500000), size: 196608 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2.0.0.1788
+C:\Windows\SYSTEM32\dxcore.dll:dxcore.dll (00007FFCB90C0000), size: 241664 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\Windows\system32\wbem\wbemprox.dll:wbemprox.dll (00007FFCB5170000), size: 69632 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1320
+C:\Windows\SYSTEM32\wbemcomn.dll:wbemcomn.dll (00007FFCB4F40000), size: 589824 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1566
+C:\Windows\system32\wbem\wbemsvc.dll:wbemsvc.dll (00007FFCB7B60000), size: 81920 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1320
+C:\Windows\system32\wbem\fastprox.dll:fastprox.dll (00007FFCB7DE0000), size: 1093632 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\Windows\SYSTEM32\amsi.dll:amsi.dll (00007FFCB6AD0000), size: 102400 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.746
+C:\Windows\SYSTEM32\USERENV.dll:USERENV.dll (00007FFCC1C10000), size: 188416 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.572
+C:\Program Files\McAfee\MfeAV\AMSIExt.dll:AMSIExt.dll (00007FFCB6A00000), size: 827392 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 25.7.148.0
+C:\Windows\System32\PSAPI.DLL:PSAPI.DLL (00007FFCC2A40000), size: 32768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\Windows\SYSTEM32\CRYPTSP.dll:CRYPTSP.dll (00007FFCC1700000), size: 98304 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\Windows\system32\rsaenh.dll:rsaenh.dll (00007FFCC0E20000), size: 212992 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1052
+C:\Windows\SYSTEM32\CRYPTBASE.dll:CRYPTBASE.dll (00007FFCC1720000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\Windows\System32\imagehlp.dll:imagehlp.dll (00007FFCC3FC0000), size: 118784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1415
+C:\Windows\SYSTEM32\gpapi.dll:gpapi.dll (00007FFCC0630000), size: 143360 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1387
+C:\Windows\SYSTEM32\cryptnet.dll:cryptnet.dll (00007FFCB69A0000), size: 200704 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.906
+C:\Program Files\Common Files\McAfee\SystemCore\mfehida.dll:mfehida.dll (00007FFCB6910000), size: 557056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 22.2.0.148
+C:\Program Files\Common Files\McAfee\SystemCore\mfemmsa.dll:mfemmsa.dll (00007FFCB27F0000), size: 770048 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 22.2.0.148
+C:\Windows\SYSTEM32\opencl.dll:opencl.dll (00007FFC8B430000), size: 147456 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2.2.6.0
+C:\Program Files\Unity\Hub\Editor\2020.3.30f1\Editor\radeonrays.dll:radeonrays.dll (00007FFC6DFF0000), size: 552960 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Program Files\Unity\Hub\Editor\2020.3.30f1\Editor\Data\MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll:mono-2.0-bdwgc.dll (00007FFC3F810000), size: 7794688 (result: 0), SymType: '-deferred-', PDB: ''
+C:\ProgramData\Microsoft\VisualStudio\Setup\x64\Microsoft.VisualStudio.Setup.Configuration.Native.dll:Microsoft.VisualStudio.Setup.Configuration.Native.dll (00007FFC70EE0000), size: 327680 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2.7.3111.17308
+D:\Unity progect\reach a point\Library\PackageCache\com.unity.burst@1.3.4\.Runtime\burst-llvm-9.dll:burst-llvm-9.dll (00007FFC3D680000), size: 35168256 (result: 0), SymType: '-deferred-', PDB: ''
+D:\Unity progect\reach a point\Library\BurstCache\JIT\cf100c683970b26e93074097dd808302.dll:cf100c683970b26e93074097dd808302.dll (00007FFC9CB40000), size: 16384 (result: 0), SymType: '-deferred-', PDB: ''
+D:\Unity progect\reach a point\Library\BurstCache\JIT\5f43d770cf345ae794b721d733f1f6c7.dll:5f43d770cf345ae794b721d733f1f6c7.dll (00007FFC9C690000), size: 16384 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Windows\SYSTEM32\PROPSYS.dll:PROPSYS.dll (00007FFCBD300000), size: 1007616 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.0.19041.1023
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1110_none_60b5254171f9507e\comctl32.dll:comctl32.dll (00007FFCB1900000), size: 2727936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.10.19041.1110
+C:\Windows\SYSTEM32\WindowsCodecs.dll:WindowsCodecs.dll (00007FFCBB930000), size: 1785856 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1151
+C:\Windows\System32\thumbcache.dll:thumbcache.dll (00007FFCAB5C0000), size: 417792 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1151
+C:\Windows\SYSTEM32\dbghelp.dll:dbghelp.dll (00007FFCBBC00000), size: 1982464 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.867
+
+========== OUTPUTTING STACK TRACE ==================
+
+0x00007FFCC2214F69 (KERNELBASE) RaiseException
+0x00007FF63AC36CAD (Unity) EditorMonoConsole::LogToConsoleImplementation
+0x00007FF63AC37C3A (Unity) EditorMonoConsole::LogToConsoleImplementation
+0x00007FF63BBEB4BE (Unity) DebugStringToFilePostprocessedStacktrace
+0x00007FF63BBEAA5F (Unity) DebugStringToFile
+0x00007FF63A0F1F0E (Unity) CachedReader::OutOfBoundsError
+0x00007FF63A0F2CD4 (Unity) CachedReader::UpdateReadCache
+0x00007FF63A323AC6 (Unity) ExecuteSerializationCommands<SafeBinaryRead>
+0x00007FF63A3326AE (Unity) TransferScriptingObject<StreamedBinaryRead,0>
+0x00007FF63A345D3C (Unity) SerializableManagedRefTransfer::TransferBinaryInstanceOnly
+0x00007FF63A325398 (Unity) SerializableManagedRefTransfer::RestoreBackupImpl<SerializableManagedRefBackupGenerator>
+0x00007FF63A325239 (Unity) SerializableManagedRefTransfer::RestoreBackup<SerializableManagedRefBackupGenerator>
+0x00007FF63A3C7A3A (Unity) SerializableManagedRefsUtilities::RestoreBackups
+0x00007FF63A33A224 (Unity) MonoManager::EndReloadAssembly
+0x00007FF63A341337 (Unity) MonoManager::ReloadAssembly
+0x00007FF63B04CE31 (Unity) LoadDomainAndUserAssemblies
+0x00007FF63B04D499 (Unity) LoadUserAssemblies
+0x00007FF63B282EF8 (Unity) <lambda_42590b35a7504ca56990eaf6908bc2e2>::operator()
+0x00007FF63B30B772 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007FF63B30D8D0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007FF63B31104E (Unity) asio::io_service::run
+0x00007FF63B2ACA7B (Unity) RunAssetImportWorkerClientV2
+0x00007FF63B2ACAD0 (Unity) RunAssetImporterV2
+0x00007FF63AD474A9 (Unity) Application::InitializeProject
+0x00007FF63B1A7C72 (Unity) WinMain
+0x00007FF63C83944E (Unity) __scrt_common_main_seh
+0x00007FFCC27D7034 (KERNEL32) BaseThreadInitThunk
+0x00007FFCC4682651 (ntdll) RtlUserThreadStart
+
+========== END OF STACKTRACE ===========
+
+A crash has been intercepted by the crash handler. For call stack and other details, see the latest crash report generated in:
+ * C:/Users/chicc/AppData/Local/Temp/Unity/Editor/Crashes
